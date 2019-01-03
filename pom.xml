@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- 代表maven的版本 -->
+  <modelVersion>4.0.0</modelVersion>
+  
+  <!-- 指定项目被打包到maven仓库时所在的位置 -->
+  <!-- 项目中的包名 -->
+  <groupId>com.zss.maven01</groupId>
+  <!-- 模块儿名 -->
+  <artifactId>Maven01-Model</artifactId>
+  <!-- 项目的版本SNAPSHOT代表快照版本 -->
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+     <dependency>
+	 <groupId>junit</groupId>
+	 <artifactId>junit</artifactId>
+	 <version>4.10</version>
+	 </dependency>
+  </dependencies>
+
+</project>
